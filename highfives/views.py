@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 
-def list_albums(request):
+def list_highfives(request):
     return render(request, 'highfives/index.html')
